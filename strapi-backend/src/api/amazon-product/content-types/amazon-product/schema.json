@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amazon_products",
+  "info": {
+    "singularName": "amazon-product",
+    "pluralName": "amazon-products",
+    "displayName": "AmazonProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Contenido": {
+      "type": "blocks"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publishDate": {
+      "type": "date"
+    }
+  }
+}
